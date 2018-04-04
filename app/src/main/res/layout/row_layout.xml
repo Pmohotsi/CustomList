@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusableInTouchMode="true"
+    android:layout_marginTop="0dp"
+    android:layout_marginBottom="0dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fruit_img"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/fruitName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/fruit_img"
+        android:layout_centerVertical="true"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:id="@+id/fruit_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"/>
+
+
+</>
